@@ -28,6 +28,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Netflix Sans Regular";
   }
   
   html {
@@ -91,13 +92,19 @@
     display: flex;
   }
   .right__header__links a{
-      padding-right: 20px;
+    padding: 13px;
+    vertical-align: middle;
   }
   
   .profile__img{
     vertical-align: middle;
   }
   /*Prova  dropdown*/
+  .dropdown{
+    position:relative;
+    top: 0;
+    left: 0;
+  }
   .dropbtn{
     background-color: var(--red);
     color: var(--white);
@@ -107,6 +114,8 @@
   .dropdown-content {
     display: none;
     position: absolute;
+    top: 45px;
+    left: 0;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
